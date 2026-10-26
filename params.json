@@ -186,7 +186,6 @@
     }
   },
   "name": "L\u0026G DEMO",
-  "projectStatus": "Sandbox",
   "metrics": {
     "probes": [],
     "engineConfig": {
@@ -250,7 +249,9 @@
     },
     "lastModifiedOn": 1793011902980
   },
-  "tags": [],
+  "tags": [
+    "duplicated"
+  ],
   "customFields": {},
   "checklists": {
     "checklists": [
