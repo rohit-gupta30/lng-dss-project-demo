@@ -185,7 +185,7 @@
       "chosenToolIds": []
     }
   },
-  "name": "L\u0026G DEMO",
+  "name": "L\u0026G DEMO MAIN REMOTE",
   "metrics": {
     "probes": [],
     "engineConfig": {
@@ -241,7 +241,7 @@
       "checks": []
     }
   },
-  "shortDesc": "The project *L\u0026amp;G DEMO*  was created by rohit\u0026#46;gupta on Oct 26th 2026",
+  "shortDesc": "The project *L\u0026amp;G DEMO*  was created by rohit\u0026#46;gupta on Oct 26th 2026\nThe project *L_G_DEMO_MAIN_REMOTE* was copied from *L_G_DEMO* by rohit.gupta on Oct 26th 2026",
   "creationTag": {
     "versionNumber": 0,
     "lastModifiedBy": {
