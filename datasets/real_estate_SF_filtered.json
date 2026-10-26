@@ -1,0 +1,167 @@
+{
+  "type": "Snowflake",
+  "managed": true,
+  "featureGroup": false,
+  "checklists": {
+    "checklists": []
+  },
+  "checks": [],
+  "customMeta": {
+    "kv": {}
+  },
+  "flowOptions": {
+    "virtualizable": false,
+    "rebuildBehavior": "NORMAL",
+    "crossProjectBuildBehavior": "DEFAULT",
+    "ignoreErrorStatusOnBuild": false
+  },
+  "readWriteOptions": {
+    "preserveOrder": false,
+    "writeBuckets": 1,
+    "forceSingleOutputFile": false,
+    "defaultReadOrdering": {
+      "enabled": false,
+      "rules": []
+    }
+  },
+  "partitioning": {
+    "ignoreNonMatchingFile": false,
+    "considerMissingRequestedPartitionsAsEmpty": false,
+    "dimensions": []
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "rohit.gupta@dataiku.com"
+    },
+    "lastModifiedOn": 1793013458761
+  },
+  "tags": [],
+  "params": {
+    "connection": "managed-snowflake",
+    "notReadyIfEmpty": false,
+    "mode": "table",
+    "partitioningType": "custom",
+    "normalizeDoubles": true,
+    "table": "${NODE}_${projectKey}_REAL_ESTATE_SF_FILTERED",
+    "schema": "PUBLIC",
+    "tableCreationMode": "auto",
+    "writeInsertBatchSize": 10000,
+    "writeDescriptionsAsSQLComment": false,
+    "writeDatasetDescriptionAsSQLComment": "INHERIT",
+    "writeColumnDescriptionsAsSQLComment": "INHERIT",
+    "noDropOnSchemaMismatch": true,
+    "stringSizeChangeAsIncompatibility": true,
+    "writeJDBCBadDataBehavior": "DISCARD_ROW",
+    "datetimenotzReadMode": "AS_IS",
+    "dateonlyReadMode": "AS_IS",
+    "variablesExpansionLoopConfig": {
+      "enabled": false,
+      "mode": "CREATE_VARIABLE_FOR_EACH_COLUMN",
+      "replacements": []
+    },
+    "sparkJdbcAccess": "NONE",
+    "numPartitions": -1
+  },
+  "schema": {
+    "columns": [
+      {"name":"TransactionId","type":"bigint","comment":"Unique identifier for the transaction"},
+      {"name":"TransactionDate","type":"dateonly","comment":"Date of the transaction"},
+      {"name":"TransactionYear","type":"int","comment":"Year of the transaction"},
+      {"name":"Address","type":"string","comment":"Address of the property","maxLength":16777216},
+      {"name":"Arrondissement","type":"int","comment":"Arrondissement of the property"},
+      {"name":"ZIPCode","type":"int","comment":"ZIP code of the property"},
+      {"name":"PropertyType","type":"string","comment":"Type of the property","maxLength":16777216},
+      {"name":"NumberOfRooms","type":"int","comment":"Number of rooms in the property"},
+      {"name":"LivingSurface","type":"int","comment":"Living surface of the property"},
+      {"name":"AverageRoomsSurface","type":"double","comment":"Average surface of the rooms in the property"},
+      {"name":"NumberOfLots","type":"int","comment":"Number of lots in the property"},
+      {"name":"PropertyPrice","type":"double","comment":"Price of the property"},
+      {"name":"LivingSurfaceSquareMeterPrice","type":"double","comment":"Price per square meter of the living surface"},
+      {"name":"PropertyGeoPoint","type":"string","comment":"Geographical coordinates of the property","maxLength":16777216}
+    ],
+    "userModified": true
+  },
+  "typeSystemVersion": "V2",
+  "dkuProperties": [],
+  "metrics": {
+    "probes": [
+      {
+        "type": "basic",
+        "enabled": true,
+        "computeOnBuildMode": "PARTITION",
+        "meta": {
+          "name": "Basic data",
+          "level": 0
+        },
+        "configuration": {}
+      },
+      {
+        "type": "records",
+        "enabled": true,
+        "computeOnBuildMode": "NO",
+        "meta": {
+          "name": "Record count",
+          "level": 0
+        },
+        "configuration": {}
+      }
+    ],
+    "engineConfig": {
+      "padRunsWithMetrics": false,
+      "hive": {
+        "active": true,
+        "extraConf": []
+      },
+      "basic": {},
+      "dss": {
+        "active": true,
+        "selection": {
+          "useMemTable": false,
+          "filter": {
+            "distinct": false,
+            "enabled": false
+          },
+          "partitionSelectionMethod": "ALL",
+          "latestPartitionsN": 1,
+          "ordering": {
+            "enabled": false,
+            "rules": []
+          },
+          "samplingMethod": "FULL",
+          "maxRecords": -1,
+          "targetRatio": 0.02,
+          "ascending": true,
+          "withinFirstN": -1,
+          "maxReadUncompressedBytes": -1
+        }
+      },
+      "sql": {
+        "active": true
+      },
+      "impala": {
+        "active": true
+      },
+      "spark": {
+        "active": true,
+        "extraConf": []
+      },
+      "python": {}
+    },
+    "displayedState": {
+      "columns": [],
+      "metrics": [
+        "basic:COUNT_COLUMNS",
+        "records:COUNT_RECORDS"
+      ]
+    }
+  },
+  "metricsChecks": {
+    "monitor": false,
+    "checks": [],
+    "displayedState": {
+      "checks": []
+    }
+  },
+  "customFields": {}
+}
