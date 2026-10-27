@@ -1,6 +1,6 @@
 library(dataiku)
 
-dkuSourceLibR("R/helpers.R")
+dkuSourceLibR("R/local_helpers.R")
 dkuSourceLibR("github/R/helpers.R")
 
 result <- data.frame(
