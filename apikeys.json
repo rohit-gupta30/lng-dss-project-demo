@@ -1,0 +1,29 @@
+[
+  {
+    "execSQLLike": false,
+    "localDatasets": [],
+    "projectPrivileges": {
+      "admin": false,
+      "editPermissions": false,
+      "readProjectContent": false,
+      "writeProjectContent": false,
+      "exportDatasetsData": false,
+      "readDashboards": false,
+      "writeDashboards": false,
+      "moderateDashboards": false,
+      "publishToDataCollections": false,
+      "shareToWorkspaces": false,
+      "runScenarios": false,
+      "manageDashboardAuthorizations": false,
+      "manageExposedElements": false,
+      "manageAdditionalDashboardUsers": false,
+      "executeApp": false
+    },
+    "onBehalf": "IHwAbnO",
+    "expiresOn": 0,
+    "id": "iREP4KSt6wkGgD86",
+    "key": "sha256:f5bTODkX:86f0297c63beb53ccf1487191c7ad4047af6964a0df518f5c41b6850e0989977",
+    "label": "Key for Web app asdqsa(IHwAbnO)",
+    "createdOn": 1793100485412
+  }
+]
