@@ -4,11 +4,11 @@
       "remote": "git@github.com:rohit-gupta30/lng-r-library-demo.git",
       "checkout": "refs/heads/library-change",
       "remotePath": "",
-      "lastHash": "fe9803085d1ec40ea30778defad405d016741df5",
+      "lastHash": "5c1e936a6d95483e27092b28d1cf89fa5dbc3e2a",
       "conflictingFiles": [],
       "resolvedFiles": [],
       "faultyHash": "",
-      "isDirty": true
+      "isDirty": false
     },
     "R/github": {
       "remote": "git@github.com:rohit-gupta30/lng-r-library-demo.git",
