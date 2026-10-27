@@ -8,4 +8,3 @@ result <- data.frame(
 )
 
 dkuWriteDataset(result, "code_result")
-- [ ]
