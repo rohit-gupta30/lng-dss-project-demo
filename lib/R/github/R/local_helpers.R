@@ -1,3 +1,3 @@
 local_message <- function() {
-  "shared-v1"
+  "local-v1"
 }
