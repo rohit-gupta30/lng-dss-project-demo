@@ -1,7 +1,7 @@
 library(dataiku)
 
 dkuSourceLibR("local_helpers.R")
-dkuSourceLibR("github/helpers.R")
+dkuSourceLibR("R/github/helpers.R")
 
 result <- data.frame(
   recipe_message = "recipe-v3-dss",
