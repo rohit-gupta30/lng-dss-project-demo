@@ -9,11 +9,18 @@
       "resolvedFiles": [],
       "faultyHash": "",
       "isDirty": false
+    },
+    "R/github": {
+      "remote": "git@github.com:rohit-gupta30/lng-r-library-demo.git",
+      "checkout": "refs/heads/library-change",
+      "remotePath": "",
+      "isDirty": false
     }
   },
   "pythonPath": [
     "python",
-    "R"
+    "R",
+    "R/github"
   ],
   "rsrcPath": [
     "R"
