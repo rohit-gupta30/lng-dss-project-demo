@@ -64,8 +64,11 @@
     "numPartitions": -1
   },
   "schema": {
-    "columns": [],
-    "userModified": true
+    "columns": [
+      {"name":"recipe_message","type":"string","maxLength":16777216},
+      {"name":"local_message","type":"string","maxLength":16777216}
+    ],
+    "userModified": false
   },
   "typeSystemVersion": "V2",
   "dkuProperties": [],
