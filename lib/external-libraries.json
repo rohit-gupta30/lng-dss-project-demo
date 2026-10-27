@@ -8,7 +8,7 @@
       "conflictingFiles": [],
       "resolvedFiles": [],
       "faultyHash": "",
-      "isDirty": false
+      "isDirty": true
     },
     "R/github": {
       "remote": "git@github.com:rohit-gupta30/lng-r-library-demo.git",
