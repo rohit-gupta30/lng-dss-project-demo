@@ -17,6 +17,7 @@
       "jquery",
       "dataiku"
     ],
+    "runAs": "rohit.gupta@dataiku.com",
     "infra": {
       "containerSelection": {
         "containerMode": "INHERIT"
