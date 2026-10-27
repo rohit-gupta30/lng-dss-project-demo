@@ -1,3 +1,3 @@
 shared_message <- function() {
-  "shared-v1"
+  "shared-v2-github"
 }
