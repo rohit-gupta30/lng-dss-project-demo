@@ -1,3 +1,3 @@
-shared_message <- function() {
+local_message <- function() {
   "shared-v1"
 }
