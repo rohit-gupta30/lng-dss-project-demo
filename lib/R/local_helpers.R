@@ -1,3 +1,3 @@
 local_message <- function() {
-  "local-v1"
+  "local-v2-github"
 }
